@@ -34,6 +34,14 @@ a {
     transform: rotate(90deg); 
 }
 
+.primary_h3 {
+    font-weight: 300;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5%;
+    letter-spacing: 7px;
+}
+
 .primary h3 {
     font-weight: 300;
     font-size: 30px;
@@ -56,6 +64,7 @@ a {
     color: rgba(0, 0, 0, 0.5); 
     font-weight: 300;
     font-size: 30px;
+    letter-spacing: 6.33px;
 }
 
 .col h3, p {
@@ -66,16 +75,19 @@ a {
 .col_h3 {
     color: rgba(243, 180, 198, 0.8);
     font-weight: 600;
+    letter-spacing: 7px;
 }
 
 .col_p {
     font-size: 18px;
     font-weight: 400;
     margin-top: 4%;
+    letter-spacing: 1.5px;
 }
 
 .col_img {
     box-shadow: 10px 10px 20px #F3CAC6;
+    border-radius: 3.5px;
 }
 
 .row_h3 {
@@ -84,6 +96,7 @@ a {
     margin-top: 15%;
     color:  rgba(0, 0, 0, 0.5);
     font-size: 30px;
+    letter-spacing: 3px;
 }
 
 .row_vid {
@@ -103,7 +116,8 @@ a {
 .overlap_h3 {
     font-size: 30px;
     font-weight: 300;
-    color: rgba(0, 0, 0, 0.5);  
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 10px;  
 }
 
 .overlap_img {
@@ -238,4 +252,9 @@ a {
     padding-right: 4px;
     padding-bottom: 2px;
     transform: rotate(-45deg);
+    transition: .5s ease-in-out;
+}
+
+.fa-location-arrow:hover {
+    color: rgba(0, 0, 0, 0.8);
 }

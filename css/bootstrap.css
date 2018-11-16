@@ -6137,7 +6137,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: rgba(243, 202, 198, 0.8) !important;
+  background-color: #EFD8C8 !important;
   margin-top: 1%;
   border-radius: 3.5px;
 }
