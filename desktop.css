@@ -173,3 +173,16 @@ a {
     color: rgba(0, 0, 0, 0.3);
     text-decoration: underline;
 }
+
+#section3 {
+    position: relative;
+}
+.sticky_img {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    z-index: 1;
+    border-radius: 3.5px;
+    filter: hue-rotate(311deg);
+    opacity: 0.9;
+}
