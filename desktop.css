@@ -161,3 +161,15 @@ a {
     transform: scale(1.2);
     z-index: 2;
 }
+
+.coming_soon {
+    width: 100%;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.coming_soon h3 {
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+}
