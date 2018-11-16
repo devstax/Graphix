@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>GRAPHIX</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 920px)" href="desktop.css" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Rajdhani:300,400" rel="stylesheet">
-
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico.jpg"/>
 </head>
 <body>
     <div class="container">
@@ -22,16 +22,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#section1">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Designs</a>
+                  <a class="nav-link" href="#section2">Structure</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Enroll</a>
+                  <a class="nav-link" href="#section3">Tutorial</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#section4">Designs</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -41,13 +41,13 @@
             </div>
           </nav>
     </div>
-    <div class="primary">
+    <div class="primary" id="section1">
         <h3>Are you a Design Junky?</h3>
         <h3 class="primary_top_h3">“Have no fear of perfection</h3>
         <img src="img/img6.jpg" width="650px" height="400px" alt="">
         <h3 class="primary_bottom_h3">you'll never reach it.”</h3>
     </div>
-    <div class="container">
+    <div class="container" id="section2">
         <div class="title">
             <h3> How can we help you? </h3>
         </div>
@@ -81,12 +81,12 @@
                     </p>
                 </div>
         </div>
-        <div class="row">
+        <div class="row" id="section3">
                 <h3 class="row_h3">Don't forget your Pencil & Notebook!</h3>
                 <iframe class="row_vid" width="729" height="410" src="https://www.youtube.com/embed/kqwgs7vBMkU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="overlap">
+    <div class="overlap" id="section4">
         <h3 class="overlap_h3">Designs</h3>
         <img class="overlap_img" src="img/img4.png" width="400px" height="300px" alt="">
         <img class="overlap_img_2" src="img/img5.jpg" width="400px" height="300px" alt="">
@@ -95,5 +95,7 @@
             <img class="overlap_2_img" src="img/img7.jpg" width="500px" height="400px" alt="">
             <img class="overlap_2_img_2" src="img/img6.jpg" width="500px" height="400px" alt="">
         </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
