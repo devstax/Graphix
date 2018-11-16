@@ -1,3 +1,4 @@
+
 a {
     font-size: 17px;
     font-weight: 600;
@@ -7,11 +8,31 @@ a {
     width: 100%;
     text-align: center;
     margin-top: 5%;
+    position: relative;
 }
 
 .primary img {
     box-shadow: 10px 10px 400px #F3CAC6;
     border-radius: 3.5px;
+    position: relative;
+    z-index: 1;
+}
+.primary_top_h3 {
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 52.5%;
+    left: 10.5%;
+    z-index: 2;
+    transform: rotate(-90deg);
+}
+
+.primary_bottom_h3 {
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 52.5%;
+    left: 62.3%;
+    z-index: 2;
+    transform: rotate(90deg); 
 }
 
 .primary h3 {
@@ -70,4 +91,73 @@ a {
     width: 60%;
     margin-left: 19.5%;
     margin-top: 3%;
+}
+
+.overlap {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    height: 30vh;
+    position: relative;
+}
+
+.overlap_h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);  
+}
+
+.overlap_img {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    z-index: 1;
+    box-shadow: 10px 10px 300px #F3CAC6;
+}
+
+.overlap_img_2 {
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    z-index: 0;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20%;
+    transition: .7s ease-in;
+}
+
+.overlap_img_2:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.overlap_2{
+    width: 100%;
+    text-align: center;
+    margin-top: 25%;
+    height: 30vh;
+    position: relative;
+}
+
+.overlap_2_img {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    z-index: 1;
+    box-shadow: 10px 10px 300px #F3CAC6;
+    transition: .7s ease-in;
+}
+
+.overlap_2_img_2 {
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    z-index: 0;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20%;
+    transition: .7s ease-in;
+}
+
+.overlap_2_img_2:hover {
+    transform: scale(1.2);
+    z-index: 2;
 }
